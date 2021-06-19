@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{box-sizing: border-box;margin: 0;padding: 0;}
+
+body{/* font-family: 'Open Sans', sans-serif; */font-family: 'Poppins', sans-serif;}
+img{max-width: 100%;}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-item{ align-items: center; }
+.justify-center{justify-content: center;}
+.col-6{width: 50%;}
+.col-3{width: 25%;padding: 0px 13px;}
+.col-4{width: 33.33%;padding: 13px;}
+
+.container{
+    width: 1100px;
+    margin: auto;}
+.banner-section{background: #EFFFEF;padding-bottom: 74px;}
+header{
+    padding-bottom: 50px;
+}
+header .col-6{}
+.logo{
+    width: 20%;
+    flex: 0 0 auto;
+}
+.logo a{}
+.logo img{
+    max-width: 100%;
+    align-items: center;
+    padding: 25px;
+}
+
+nav{
+    width: 80%;
+    flex: 0 0 auto;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li {
+    list-style: none;
+    padding: 20px 3px;
+}
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: #39393b;
+    font-weight: 400;
+    padding: 10px 26px;
+    border-radius: 46px;
+}
+nav ul li a:hover{
+    background: #21b573;
+    color: white;
+}
+
+.content{
+    padding-left: 68px;
+    padding-right: 49px;
+}
+.content span{
+    font-size: 16px;
+    color: #ff0000ab;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 11px;
+}
+.content h1 span{
+    font-size: 50px;
+    font-weight: 700;
+    color: #21b573;
+}
+.content p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    line-height: 26px;
+    color: #585859;
+    padding-bottom: 20px;
+    line-height: 1.8;
+}
+.content a{
+    color: white;
+    background: #21b573;
+    padding: 12px 20px;
+    border-radius: 26px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.content a:hover{background: #efffef;
+    border: 1px solid #21b573;
+    color: #21b573;
+    
+}
+.btn{
+    color: white;
+    background: #21b573;
+    padding: 6px 16px;
+    border-radius: 26px;
+    text-decoration: none;
+    }
+.btn:hover{background: #efffef;
+    border: 1px solid #21b573;
+    color: #21b573;}
+.banner-img{
+    /* width: 50%; */
+}
+.banner-img img{}
+
+
+.feature-section{
+    margin-top: 95px;
+    margin-bottom: 50px;
+}
+.feature{
+    text-align: center;
+    background: #efffef;
+    padding: 48px 0px;
+    border-radius: 10px;
+}
+.feature img{
+    height: 85px;
+    width: 78px;
+}
+.feature h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 22px;
+    color: #413960;
+}
+.feature p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.feature:hover{
+    box-shadow: 0px 4px 22px 2px #b5ffb5;
+    background: white;
+}
+
+.course-section{
+    padding-top: 50px;
+}
+.heading{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 20px 0px 38px 0px;
+}
+.heading h1{}
+.course{
+    padding: 16px;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 0px 4px 22px 2px #d6f3d6;
+}
+
+.course img{}
+.course h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.course h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #585859;
+    padding: 6px 0px 16px 0px;
+}
+.course a{}
+.course ul{
+    justify-content: space-between;
+}
+.course ul li{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #585859;
+    padding-top: 24px;
+}
+.course ul li i{
+}
+
+
+
+
+
+.testimonial-section{
+    padding: 78px 0px 150px 0px;
+}
+.testimonial{
+    align-items: center;
+    justify-content: center}
+    
+.client{
+    width: 15%;
+}
+.client img{
+    height: 120px;
+    width: 120px;
+}
+.review{
+    width: 60%;
+}
+.review p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #2f2f2f;
+}
+
+
+footer{
+    background: #282531;
+    padding: 46px 0px 19px 0px;
+}
+.footer-column {
+    width: 40%;
+}
+.footer-column p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-menu{
+    width: 20%;
+}
+.footer-menu ul{
+    color: white;
+}
+.footer-menu ul strong{
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer-menu ul li{
+    list-style: none;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.copyright{
+    padding-top: 34px;
+}
+.copyright p{}
+.copyright a{
+    color: #21b573;
+}
+.copyright .copy{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
